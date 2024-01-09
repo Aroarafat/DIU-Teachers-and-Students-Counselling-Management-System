@@ -1,0 +1,41 @@
+.studentLogin {
+  
+  .form {
+    font-weight: bold;
+    color: #000;
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    background: #fff;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+
+    .formGroup {
+      margin-left: 10%;
+      padding: 30px;
+      .btnGroup {
+      }
+    }
+
+    .student {
+      text-align: center;
+      margin-top: 20%;
+      .studentLogo {
+        width: 15%;
+      }
+    }
+  }
+  .accountBtn {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .studentLogin {
+    .form {
+      width: 90%;
+      left: 5%;
+    }
+  }
+}

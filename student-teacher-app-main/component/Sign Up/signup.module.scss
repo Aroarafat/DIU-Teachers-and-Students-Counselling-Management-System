@@ -1,0 +1,48 @@
+.signup {
+    .form {
+      font-weight: bold;
+      color: #000;
+      position: absolute;
+      top: 5%;
+      left: 30%;
+      background: #fff;
+      width: 500px;
+      height: auto;
+      border-radius: 20px;
+  
+      .formGroup {
+        margin-left: 10%;
+        padding: 30px;
+
+        .middle{
+          margin-top: 3%;
+          .ageInput{
+            margin-left: 5%;
+          }
+          .gender{
+            margin-left: 70%;
+          }
+        }
+      }
+  
+      .student {
+        text-align: center;
+        .studentLogo {
+          width: 15%;
+        }
+      }
+    }
+    .accountBtn{
+      margin-top: 5%;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .signup{
+      .form{
+        width: 90%;
+        left: 5%;
+      }
+    }
+  }
+  
